@@ -1,0 +1,123 @@
+/*
+
+
+*/
+
+header {
+    margin: 0 auto;
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-areas: "n" "i";
+    grid-template-rows: 100px 1fr;
+    /*grid-template-columns: 2fr 10fr;*/
+}
+
+.tatle_header {
+    grid-area: i;
+    margin: auto auto;
+    z-index: 2;
+}
+
+#images {
+    grid-area: i;
+}
+
+#navbar {
+    grid-area: n;
+}
+
+
+/*
+
+*/
+
+#nav_bar {
+    margin: 0 auto;
+    display: grid;
+    width: 100%;
+    grid-template-areas: "l m m" "f f f";
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+#logo {
+    grid-area: l;
+}
+
+#menu {
+    margin: auto 0 auto auto;
+    grid-area: m;
+}
+
+#feedback {
+    grid-area: f;
+}
+
+
+/*
+
+*/
+
+.feedback_grid {
+    display: grid;
+    text-align: right;
+    grid-template-areas: "adr tfl eml";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#address {
+    grid-area: adr;
+}
+
+#telethon {
+    grid-area: tfl;
+}
+
+#email {
+    grid-area: eml;
+}
+
+
+/*
+
+*/
+
+.two_columns {
+    display: grid;
+    grid-template-areas: "c1 c2";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.three_columns {
+    display: grid;
+    grid-template-areas: "c1 c2 c3";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.chetire_clomns {
+    display: grid;
+    grid-template-areas: "c1 c2 c3 c4";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.seven_clomns {
+    display: grid;
+    grid-template-areas: "c1 c2 c3 c4 c5 c6 c7";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+/**/
+
+.two_columns_comment {
+    display: grid;
+    grid-template-areas: "c1 c2";
+    grid-template-rows: 1fr;
+    grid-template-columns: 150px 1fr;
+}
