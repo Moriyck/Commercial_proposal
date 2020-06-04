@@ -1,5 +1,5 @@
 /*
-Theme Name: MedicalCenter
+Theme Name: Commercial_proposal
 Theme URI: 
 Author: FameThemes
 Author URI: 
@@ -31,36 +31,80 @@ css reset
 */
 
 body {
-    background: #ffffff;
+    margin: 0 auto;
+    width: 1200px;
+    height: auto;
+    border: 0 solid #0089EB;
 }
 
 a {
-    color: #FF8FAD;
+    color: #0089EB;
     text-align: center;
 }
 
-h1 {
-    text-align: center;
-}
-
+h1,
 h2 {
     text-align: center;
 }
 
 .button {
-    margin: 10px 1px;
-    width: auto;
-    background-color: rgb(255, 255, 255);
-    border: 3px solid #FF8FAD;
-    border-radius: 12px;
-    color: #FF8FAD;
-    padding: 5px 10px;
-    text-transform: uppercase;
+    background-color: #0089EB;
+    /* Зеленый */
+    border: none;
+    color: white;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-    text-indent: 0;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #0089EB;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #0089EB;
+    color: white;
+    border-radius: 8px;
+}
+
+.select {
+    background-color: #0089EB;
+    /* Зеленый */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.select {
+    background-color: white;
+    color: black;
+    border: 2px solid #0089EB;
+    border-radius: 8px;
+}
+
+.select:hover {
+    background-color: #0089EB;
+    color: white;
+    border-radius: 8px;
 }
 
 #container {
@@ -69,20 +113,20 @@ h2 {
     height: auto;
 }
 
+
+/*
+
+*/
+
+.himages {
+    width: 70%;
+}
+
 .tatle_header {
-    font-size: 40px;
+    font-size: 30px;
     color: #0089EB;
     text-align: center;
-    text-shadow: 2px 2px 2px #000000;
-}
-
-
-/*
-
-*/
-
-.header img {
-    width: 100%;
+    margin: auto auto;
 }
 
 
@@ -90,8 +134,15 @@ h2 {
 
 
 */
+
+#navbar {
+    margin: auto auto 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.151);
+}
 
 #menu {
+    margin: auto 0 auto auto;
     text-transform: uppercase;
     word-spacing: 5px;
 }
@@ -102,21 +153,14 @@ h2 {
     */
 
 #logo img {
-    width: 70px;
+    width: 50px;
 }
 
 #logo p {
     font-size: 18px;
     color: #0089EB;
     text-align: left;
-    text-shadow: 1px 0.5px 0.5px #000000;
 }
-
-
-/*
-    
-    
-    */
 
 
 /*
@@ -185,8 +229,41 @@ h2 {
     text-indent: 25px;
 }
 
+.team_img_300 {
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.151);
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.ti_img_300 {
+    margin: auto 0;
+    width: 290px;
+    border-radius: 200px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.151);
+    text-align: justify;
+    text-indent: 25px;
+}
+
 .avatar {
     width: 100px;
+}
+
+.icons {
+    width: 20px;
+    perspective: 150px;
+    perspective-origin: 10% 10%;
+}
+
+.shift_left {
+    width: 280px;
+    margin: auto 0 auto 0;
+}
+
+.shift_right {
+    margin: auto 0 auto auto;
 }
 
 .imcom {
@@ -210,9 +287,14 @@ h2 {
     margin: 100px 100px;
 }
 
+.contakt {
+    width: 500px;
+    margin: auto 0;
+}
+
 .mapp {
-    width: 100%;
-    height: 300px;
+    width: 650px;
+    margin: 0 10px;
 }
 
 
@@ -229,8 +311,14 @@ h2 {
 }
 
 footer {
+    padding: 10px;
     background: #000000;
     color: #ffffff;
+    text-align: center;
+}
+
+#copirat {
+    height: 50px;
 }
 
 

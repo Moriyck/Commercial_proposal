@@ -1,0 +1,287 @@
+/*
+Theme Name: Commercial_proposal
+Theme URI: 
+Author: FameThemes
+Author URI: 
+Description: MedicalCenter is an outstanding creative and flexible WordPress one page theme well suited for business website, portfolio, digital agency, product showcase, freelancers and everyone else who appreciate good design. The theme overall is an elegant and classic one, a fine example of Bootstrap 4 WordPress theme which compatibility with latest version of WooCommerce. (Live preview : https://demos.famethemes.com/MedicalCenter)
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: 
+Text Domain: MedicalCenter
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-menu, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, e-commerce, blog, portfolio
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+MedicalCenter 
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*
+css reset
+*/
+
+body {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+a {
+    color: #0089EB;
+    text-align: center;
+}
+
+.button {
+    background-color: white;
+    /* Синий */
+    border: none;
+    color: #0089EB;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #0089EB;
+    color: white;
+    border: 2px solid #0089EB;
+    border-radius: 8px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+
+/*
+
+*/
+
+.himages {
+    background-color: 12px;
+}
+
+.tatle_header {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto auto;
+}
+
+
+/*
+
+*/
+
+#navbar {
+    margin: auto auto 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.151);
+}
+
+#menu {
+    margin: auto 0 auto auto;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+
+/*
+
+*/
+
+#logo img {
+    width: 50px;
+}
+
+#logo p {
+    font-size: 18px;
+    color: #0089EB;
+    text-align: left;
+}
+
+
+/*
+
+*/
+
+#box {
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.151);
+    text-align: justify;
+    text-indent: 25px;
+}
+
+#box_c {
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.151);
+    text-align: center;
+    text-indent: 0px;
+}
+
+#box_rb {
+    margin: 100px 0 auto;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.151);
+    text-align: justify;
+    text-indent: 25px;
+}
+
+#box_img {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 120px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.151);
+}
+
+.baner img {
+    width: 500px;
+    margin: 10px 5px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.151);
+}
+
+.quote {
+    text-align: right;
+    font-size: 10px;
+}
+
+.box_img img {
+    margin: 0 auto;
+    width: 250px;
+    border-radius: 120px;
+}
+
+.category img {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.team img {
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 120px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.151);
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.team_img_300 {
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.151);
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.ti_img_300 {
+    margin: 5px;
+    width: 300px;
+    border-radius: 300px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.151);
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 100px;
+}
+
+.icons {
+    width: 20px;
+    perspective: 150px;
+    perspective-origin: 10% 10%;
+}
+
+.shift_left {
+    width: 280px;
+    padding: 5px;
+    margin: auto 0 auto 0;
+}
+
+.shift_right {
+    margin: auto 0 auto auto;
+}
+
+.imcom {
+    width: 20px;
+}
+
+.imcoms {
+    width: 160px;
+}
+
+.impleer img {
+    width: 150px;
+    margin: 0 190px;
+}
+
+.imcopl {
+    width: 50px;
+    border-radius: 25px;
+}
+
+.detlane {
+    margin: 100px 100px;
+}
+
+.contakt {
+    width: 500px;
+    margin: auto 0;
+}
+
+.mapp {
+    width: 650px;
+    margin: 0 10px;
+}
+
+
+/*
+    
+*/
+
+#clear {
+    clear: both;
+}
+
+footer {
+    padding: 10px;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+#copirat {
+    height: 50px;
+    padding: 10px;
+}
+
+
+/*
+    classes of the first level
+*/
